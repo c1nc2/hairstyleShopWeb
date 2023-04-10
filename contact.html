@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HeadHunter Website Redesign</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="contact-style.css" rel="stylesheet">
+  <link rel="stylesheet" href="style-contact.css">
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+<!--  header starts here -->
+
+<header class="main-header" id="main-header-mark">
+    <div>
+      <a href="index.html" class="main-logo">
+        <img src="img/logo.png" alt="" width="100px">
+      </a>
+    </div>
+    <nav class="navigation-menu">
+      <ul class="navigation-menu-lists">
+        <li><a class="nav-links" href="index.html">Home</a></li>
+        <li><a class="nav-links" href="index.html#our-services-title-mark">Services</a></li>
+        <li><a class="nav-links" href="about-us.html">About</a></li>
+        <li><a class="nav-links extra-1" href="contact.html">Make Appointment!</a></li>
+      </ul>
+    </nav>
+  </header>	
+  
+  <!--  header ends here -->
+
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5">
+        <div class="contact-container">
+            <div class="text-center">
+                <h1 class="mt-2 mb-5">Make An Appointment!</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="d-flex align-items-center border mb-3 p-4">
+                        <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
+                        <div class="d-flex flex-column">
+                            <h5 class="font-weight-bold">We're located at</h5>
+                            <p class="m-0">205 S Baylen St. Pensacola, FL 32502</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center border mb-3 p-4">
+                        <i class="fa fa-2x fa-envelope-open text-primary mr-3"></i>
+                        <div class="d-flex flex-column">
+                            <h5 class="font-weight-bold">Our Email</h5>
+                            <p class="m-0">info@headhunterhairstyling.com</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center border mb-3 mb-md-0 p-4">
+                        <i class="fas fa-2x fa-phone-alt text-primary mr-3"></i>
+                        <div class="d-flex flex-column">
+                            <h5 class="font-weight-bold">Call Us</h5>
+                            <p class="m-0">850-433-3308</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="contact-form">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="form-row">
+                                <div class="col-md-6">
+                                    <div class="control-group">
+                                        <input type="text" class="form-control p-4" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="control-group">
+                                        <input type="email" class="form-control p-4" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" id="subject" placeholder="What service are you interested" required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control" rows="5" id="message" placeholder="Write what are you looking for and the time you'll like to have the service. We will contact you. Thank you" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary font-weight-semi-bold px-4" style="height: 50px;" type="submit" id="sendMessageButton">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+<!-- footer part starts  -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-row">
+            <div class="footer-col">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="index.html#Gallery-mark">Gallery</a></li>
+                    <li><a href="index.html#main-header-mark">Menu</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="index.html#our-services-title-mark">Our Services</a></li>
+                    <li><a href="index.html#sponsored-logos-mark">Our Features</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="index.html#Handsome-Customer-mark">Reviews</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow us!</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/headhunterhairstyling/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/HeadhunterHair"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.yelp.com/biz/head-hunter-hair-styling-pensacola?search_key=87603"><i class="fab fa-yelp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </footer>
+  
+  <!-- footer part ends  -->
+
+</body>
+
+</html>
